@@ -417,9 +417,9 @@ a:hover{
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    line-height: 1;
+    line-height: 1; 
     opacity: 2;
-    animation: animate 1s ease-in-out 0.3s 1 forwards;
+     animation: animate 1s ease-in-out 0.3s 1 forwards; 
 }
 
 .content .name{
