@@ -365,35 +365,43 @@ body.dark .search-field i {
     text-align: center;
     margin-top:140px;
 }
+.margin{
+    margin-top: -120px;
+}
 
 .img1{
     margin: 40px;
-    width: 350px; 
-    height: 390px;
+    width: 300px; 
+    height: 330px;
     border: 2px solid black;
     border-radius: 20px;
+    margin-left: -1px;
+    margin-top: 140px;
 }
+
 .imgg2{
-    margin-top: -275px;
-    margin-left: 40px;
+    margin-top: -65px;
+    margin-left: -4px;
 }
 
 .img2{
-    width: 230px;
-    height: 180px;
+    width: 300px; 
+    height: 330px;
     border: 2px solid black;
     border-radius: 20px;
-    margin-left: 400px;
-    margin-top: -700px;
+    margin-left: 330px;
+    margin-top: -690px;
 }
+
 .imgg3{
-    margin-top: -26px;
+    margin-top: -135px;
+    margin-left: -19px;
 }
 .img3{
-    width: 230px;
-    height: 180px;
+    width: 300px; 
+    height: 330px;
     border: 2px solid black;
     border-radius: 20px;
-    margin-left: 700px;
+    margin-left: 670px;
     margin-top: -200px;
 }
