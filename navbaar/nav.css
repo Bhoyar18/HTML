@@ -307,7 +307,7 @@ body.dark .search-field i {
 
  .divv{
     width: auto;
-    height: 200vh;
+    height: 400vh;
     margin: 30px;
     padding: 15px;
      /* border-radius: 20px;  */
@@ -315,7 +315,8 @@ body.dark .search-field i {
 } 
 .imgg{
     height: auto;
-    max-width: 100%;
+    width: 880px;
+    /* max-width: 100%; */
     border-radius: 40px;
     margin: 50px;
 }
@@ -363,4 +364,24 @@ body.dark .search-field i {
 .heading{
     text-align: center;
     margin-top:140px;
+}
+
+.img1{
+    margin: 40px;
+    width: 350px; 
+    height: 360px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.imgg2{
+    margin-top: -235px;
+    margin-left: 40px;
+}
+.img2{
+    width: 200px;
+    height: 190px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 370px;
+    margin-top: -700px;
 }
