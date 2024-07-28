@@ -380,32 +380,47 @@ body.dark .search-field i {
 }
 .p1{
     color: purple;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 900;
     margin-left: 19px;
     margin-top: -78px;
+    cursor: pointer;
 }
 .p1:hover{
-    color: black;
-    
+    color: black; 
 }
+
+
 .btn1{
     margin-left: 80px;
-     margin-top: 10px;
+     margin-top: 5px;
      background-color: aliceblue;
      color: black;
      font-weight: 800;
      padding: 10px;
      border-radius: 20px;
      cursor: pointer;
-
 }
 .btn1:hover{
-    background-color: black;
     color: white;
+    background-color: black;
 }
-/* .btn2{
-    margin-left: 80px;
-     margin-top: 10px;
+
+.p2{
+    color: purple;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 349px;
+    margin-top: -38px;
+    cursor: pointer;
+}
+.p2:hover{
+    color: black; 
+}
+
+.btn2{
+    margin-left: 430px;
+     margin-top: 6px;
      background-color: aliceblue;
      color: black;
      font-weight: 800;
@@ -417,7 +432,8 @@ body.dark .search-field i {
 .btn2:hover{
     background-color: black;
     color: white;
-} */
+}
+
 
 .imgg2{
     margin-top: -65px;
@@ -432,9 +448,34 @@ body.dark .search-field i {
     margin-left: 330px;
     margin-top: -690px;
 }
+.p3{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-top: -34px;
+    cursor: pointer;
+}
+.p3:hover{
+    color: black;
+}
+.btn3{
+    margin-left: 90px;
+    margin-top: 3px;
+    background-color: aliceblue;
+     color: black;
+     font-weight: 800;
+     padding: 10px;
+     border-radius: 20px;
+     cursor: pointer;
+}
+.btn3:hover{
+    background-color: black;
+    color: white;
+}
 
  .imgg3{
-    margin-top: -135px;
+    margin-top: -177px;
     margin-left: 655px;
 } 
 .img3{
