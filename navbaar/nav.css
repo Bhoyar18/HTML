@@ -377,11 +377,23 @@ body.dark .search-field i {
     margin-top: -235px;
     margin-left: 40px;
 }
+
 .img2{
-    width: 200px;
+    width: 230px;
     height: 190px;
     border: 1px solid black;
     border-radius: 20px;
-    margin-left: 370px;
+    margin-left: 400px;
     margin-top: -700px;
+}
+.imgg3{
+    margin-top: -25px;
+}
+.img3{
+    width: 230px;
+    height: 190px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: -200px;
 }
