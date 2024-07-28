@@ -369,30 +369,30 @@ body.dark .search-field i {
 .img1{
     margin: 40px;
     width: 350px; 
-    height: 360px;
-    border: 1px solid black;
+    height: 390px;
+    border: 2px solid black;
     border-radius: 20px;
 }
 .imgg2{
-    margin-top: -235px;
+    margin-top: -275px;
     margin-left: 40px;
 }
 
 .img2{
     width: 230px;
-    height: 190px;
-    border: 1px solid black;
+    height: 180px;
+    border: 2px solid black;
     border-radius: 20px;
     margin-left: 400px;
     margin-top: -700px;
 }
 .imgg3{
-    margin-top: -25px;
+    margin-top: -26px;
 }
 .img3{
     width: 230px;
-    height: 190px;
-    border: 1px solid black;
+    height: 180px;
+    border: 2px solid black;
     border-radius: 20px;
     margin-left: 700px;
     margin-top: -200px;
