@@ -16,7 +16,7 @@
 
 /* Base Styles */
 body {
-    background-color: white;
+    background-color: grey;
     padding: 0;
     margin: 0;
     overflow: auto;
@@ -32,7 +32,7 @@ nav {
     /* margin-top: 20px; */
     /* opacity: 0.6; */
     /* border-radius: 20px; */
-    background-color: yellowgreen;
+    background-color: burlywood;
     z-index: 100;
 }
 
@@ -150,7 +150,7 @@ nav .nav-bar .nav-links li {
     margin-top: -0px;
     padding: 15px;
     /* border-radius: 10px;  */
-    background-color:bisque;
+    background-color:grey;
 }
 
 .imgg {
@@ -470,3 +470,69 @@ nav .nav-bar .nav-links li {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  /* footer */
+  footer{
+    margin-top: 113px;
+}
+
+.foot-panel1{
+    background-color: grey;
+    color: black;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: whitesmoke;
+    color: black;
+    height: 300px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: bla;
+}
+
+.foot-panel3{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo1{
+    background-image: url("../IMG/decor7.jpeg");
+    background-size: cover;
+    border-radius: 60%;
+    height: 50px;
+    width: 100px;
+
+}
+
+.foot-panel4{
+    background-color: #0F1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pages{
+    padding-top: 25px;
+    
+ }
+ 
+ .copy-right{
+     padding-top: 3px;
+ }
