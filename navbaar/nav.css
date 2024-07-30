@@ -140,23 +140,17 @@ nav .nav-bar .nav-links li {
     }
 }
 
-
-
-
-
-
-
-.divv {
+.divv{
     width: auto;
-    height: 400vh;
+    height: 500vh;
     margin-top: -0px;
     padding: 15px;
-    border-radius: 20px; 
-    background-color: palevioletred;
+    /* border-radius: 10px;  */
+    background-color:bisque;
 }
 
 .imgg {
-    height: auto;
+    height: 500px;
     width: 880px;
     /* max-width: 100%; */
     border-radius: 40px;
