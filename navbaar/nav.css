@@ -16,114 +16,52 @@
 
 /* Base Styles */
 body {
-    background-color: grey;
+    background-color: teal;
+    
     padding: 0;
     margin: 0;
-    overflow: auto;
+    /*overflow: hidden; */
 }
 
 .nav-links {
     position: relative;
     /* Changed to fixed for better scrolling behavior */
-    background-color: wheat;
+    /* background-color: lightslategray; */
     display: flex;
     justify-content: center;
     list-style: none;
     margin-top: -10px;
-    height: 80px;
-    
+    height: 80px;   
 }
 
 .nav-links li a {
     margin-top: 20px;
     font-size: 23px;
     font-weight: 800;
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 20px;
 }
 
 .nav-links li a:hover {
-    font-weight: 800;
-    color: purple;
-    
-}
-
-.search input {
-    height: 50px;
-    width: 170px;
-    border-radius: 20px;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-    nav .nav-bar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav .nav-bar .sidebarOpen {
-        display: block;
-        /* Show the menu toggle button */
-    }
-
-    nav .nav-bar .nav-links {
-        display: none;
-        /* Hide navigation links by default */
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        background-color: blue;
-        position: absolute;
-        top: 70px;
-        /* Position below the navbar */
-        left: 0;
-        padding: 10px;
-    }
-
-    nav .nav-bar .nav-links.active {
-        display: flex;
-        /* Show navigation links when active */
-    }
-
-    nav .nav-bar .nav-links li {
-        margin: 10px 0;
-    }
-
-    nav .nav-bar .logo a {
-        font-size: 30px;
-        /* Slightly smaller logo text on mobile */
-    }
-}
-
-@media (max-width: 480px) {
-    nav .nav-bar .logo a {
-        font-size: 25px;
-        /* Even smaller logo text on very small screens */
-    }
-
-    .nav-links li a {
-        font-size: 16px;
-        /* Smaller font size for navigation links */
-        padding: 8px;
-    }
+    font-weight: 800; 
 }
 
 .divv {
-    width: auto;
-    height: 500vh;
-    margin-top: -0px;
-    padding: 15px;
-    /* border-radius: 10px;  */
-    background-color: grey;
+    background-color: white;
+    margin-top: 30px;
+    width: 950px;
+    height: auto;
+    margin-left: 50px;
+    padding: 15px; 
 }
 
 .imgg {
-    height: 500px;
-    width: 880px;
-    /* max-width: 100%; */
-    border-radius: 40px;
+    height: 300px;
+    width: 900px;
+   background-size: cover;
     margin: 50px;
+    margin-left: 30px;
 }
 
 .textt {
@@ -450,7 +388,7 @@ footer {
 }
 
 .foot-panel1 {
-    background-color: grey;
+    /* background-color: grey; */
     color: black;
     height: 50px;
     display: flex;
