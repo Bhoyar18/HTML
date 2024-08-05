@@ -10,11 +10,6 @@
 
 }
 
-
-/* ===== Colours ===== */
-
-
-/* Base Styles */
 body {
     background-color: teal;
     padding: 0;
@@ -210,3 +205,49 @@ ul a {
 .copy-right {
     padding-top: 3px;
 }
+
+/* =================================COLEECTION PAGE CSS====================================== */
+
+
+
+
+a
+{
+    text-decoration: none;
+}
+.product-card {
+    width: 270px;
+    height: 400px;
+    position: relative;
+    box-shadow: 0 2px 17px #dfdfdf;
+    margin: 20px;
+    background: #fafafa;
+}
+
+/* .badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+} */
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 290px;
+    padding: 50px;
+    /* background: #f0f0f0; */
+}
+
+.product-tumb img {
+    width: 290px;
+    height: 250px;
+}
+
+
