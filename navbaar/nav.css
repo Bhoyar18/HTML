@@ -240,14 +240,16 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 290px;
-    padding: 50px;
+    /* height: 290px;
+    width: 290px; */
+    padding: 10px;
     /* background: #f0f0f0; */
 }
 
 .product-tumb img {
-    width: 290px;
-    height: 250px;
+   height: 250px;
+   width: 250px;
+  
 }
 
 
