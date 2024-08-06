@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./nav.css">
 </head>
+
+
 <body>
-    <div>
-        <form>
-            <label for="email"><b>Name</b></label>
-            <input type="text" placeholder="Enter Name" name="name" required>
 
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
-
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-
-            <label for="psw-repeat"><b>Confirm Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" require>
-        </form>
-    </div>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="./collection.html">Collection</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="./sign.html">Contact</a></li>
+    </ul>
+    </nav>
+    <hr>
+    <br>
+    
+        <div>
+            <form style="text-align: center;">
+                <div style=" margin-top: 20px;">
+                    <label style="margin: 50px;" for="email"><b>Name</b></label>
+                    <input style="height: 50px; width: 250px;" type="text" placeholder="Enter Name" name="name"
+                        required>
+                </div>
+                <br>
+                <div>
+                    <label style="margin: 50px;" for="email"><b>Email</b></label>
+                    <input style="height: 50px; width: 250px;" type="text" placeholder="Enter Email" name="email"
+                        required>
+                </div>
+                <br>
+                <div>
+                    <label style="margin: 32px;" for="psw"><b>Password</b></label>
+                    <input style="height: 50px; width: 250px;" type="password" placeholder="Enter Password" name="psw"
+                        required>
+                </div>
+                <br>
+            </form>
+            <br>
+            <button style="margin-left: 530px; padding: 10px; border-radius: 20px;">Sign in</button>
+        </div>
 </body>
+
 </html>
