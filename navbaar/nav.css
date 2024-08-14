@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: lightsteelblue;
+  background-color: teal;
   padding: 0;
   margin: 0;
   /*overflow: hidden; */
@@ -265,7 +265,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 500px;
+  width: 600px;
   padding: 40px;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, .5);
@@ -350,7 +350,7 @@ form{
  .user-box1 input{
   margin-left: 50px;
   height: 40px;
-  width: 200px;
+  width: 240px;
 
  }
 
@@ -362,7 +362,7 @@ form{
  .user-box2 input{
   margin-left: 54px;
   height: 40px;
-  width: 200px;
+  width: 240px;
 
  }
 
@@ -374,11 +374,13 @@ form{
  .user-box3 input{
   margin-left: 23px;
   height: 40px;
-  width: 200px;
+  width: 240px;
 
  }
  .signinbtn{
   margin-left: 230px;
   padding: 10px;
   border-radius: 20px;
+  cursor: pointer;
+  font-weight: 700;
  }
