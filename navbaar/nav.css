@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: lightcoral;
+  background-color: lightsteelblue;
   padding: 0;
   margin: 0;
   /*overflow: hidden; */
@@ -136,7 +136,13 @@ body {
 }
 
 
+.shopbtn{
+  padding: 8px;
+  border-radius: 20px;
+  margin-left: 400px;
 
+
+}
 /* footer */
 footer {
   margin-top: 113px;
@@ -153,6 +159,7 @@ footer {
 }
 
 .foot-panel2 {
+  padding: 20px;
   background-color: whitesmoke;
   color: black;
   height: 300px;
