@@ -270,7 +270,7 @@ a {
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, .5);
   /* box-sizing: border-box; */
-  box-shadow: 14px 13px white;
+  /* box-shadow: 14px 13px white; */
   border-radius: 10px;
 }
 
@@ -342,10 +342,11 @@ a {
 form{
   margin: 30px;
 }
- .user-box1 label{
+
+ /* .user-box1 label{
   margin-left: 20px;
 
- }
+ } */
 
  .user-box1 input{
   margin-left: 50px;
@@ -354,33 +355,33 @@ form{
 
  }
 
- .user-box2 label{
+ /* .user-box2 label{
   margin-left: 6px;
 
- }
+ } */
 
  .user-box2 input{
-  margin-left: 44px;
+  margin-left: 36px;
   height: 40px;
   width: 240px;
 
  }
 
- .user-box3 label{
+ /* .user-box3 label{
   margin-left: 48px;
 
- }
+ } */
 
  .user-box3 input{
-  margin-left: 23px;
+  margin-left: 57px;
   height: 40px;
   width: 240px;
 
  }
- .user-box4 label{
+ /* .user-box4 label{
   margin-left: 18px;
 
- }
+ } */
 
  .user-box4 input{
   margin-left: 23px;
@@ -388,10 +389,26 @@ form{
   width: 240px;
 
  }
+ /* .user-box5 label{
+  margin-left: 18px;
+
+ } */
+
+ .user-box5 input{
+  margin-left: 23px;
+  height: 40px;
+  width: 240px;
+
+ }
  .signinbtn{
   margin-left: 230px;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 6px;
   cursor: pointer;
   font-weight: 700;
+ }
+ .signinbtn:hover{
+  color: black;
+  background-color: pink;
+  cursor: pointer;
+
  }
