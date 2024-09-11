@@ -39,6 +39,8 @@ body {
 
 .nav-links li a:hover {
   font-weight: 800;
+  color: palegreen;
+  
 }
 
 
@@ -137,12 +139,20 @@ body {
 
 
 .shopbtn{
-  padding: 8px;
-  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
   margin-left: 400px;
-
+  font-weight: 800;
+  text-decoration: none;
+}
+.shopbtn:hover{
+  text-decoration: none;
+  color: black;
+  background-color: pink;
 
 }
+
 /* footer */
 footer {
   margin-top: 113px;
@@ -225,7 +235,7 @@ a {
   width: 270px;
   height: 400px;
   position: relative;
-  box-shadow: 0 2px 17px #dfdfdf;
+  /* box-shadow: 0 2px 17px #dfdfdf; */
   margin: 20px;
   background: #fafafa;
 }
