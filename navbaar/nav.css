@@ -263,7 +263,7 @@ a {
 .login-box {
   margin-top: 30px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   width: 600px;
   padding: 40px;
@@ -355,23 +355,34 @@ form{
  }
 
  .user-box2 label{
-  margin-left: 20px;
+  margin-left: 6px;
 
  }
 
  .user-box2 input{
-  margin-left: 54px;
+  margin-left: 44px;
   height: 40px;
   width: 240px;
 
  }
 
  .user-box3 label{
-  margin-left: 18px;
+  margin-left: 48px;
 
  }
 
  .user-box3 input{
+  margin-left: 23px;
+  height: 40px;
+  width: 240px;
+
+ }
+ .user-box4 label{
+  margin-left: 18px;
+
+ }
+
+ .user-box4 input{
   margin-left: 23px;
   height: 40px;
   width: 240px;
