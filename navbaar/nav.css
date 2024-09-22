@@ -16,17 +16,27 @@ body {
   margin: 0;
   /*overflow: hidden; */
 }
+.logo{
+  margin-top: 15px;
+}
+.logo img{
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+
+}
 
 .nav-links {
   position: relative;
   /* Changed to fixed for better scrolling behavior */
   /* background-color: lightslategray; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   list-style: none;
   margin-top: -10px;
   height: 80px;
   background-color: plum;
+ 
 }
 
 .nav-links li a {
@@ -35,8 +45,7 @@ body {
   font-weight: 800;
   color: white;
   text-decoration: none;
-  padding: 20px;
-  
+  padding: 20px; 
 }
 
 .nav-links li a:hover {
@@ -147,6 +156,7 @@ body {
   margin-left: 400px;
   font-weight: 800;
   text-decoration: none;
+
 }
 .shopbtn:hover{
   text-decoration: none;
