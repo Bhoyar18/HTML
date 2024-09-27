@@ -17,11 +17,12 @@ body {
   /*overflow: hidden; */
 }
 .logo{
-  margin-top: 15px;
+  margin-top: 19px;
+  margin-left: 40px;
 }
 .logo img{
   height: 60px;
-  width: 70px;
+  width: 60px;
   border-radius: 50%;
 
 }
@@ -35,7 +36,7 @@ body {
   list-style: none;
   margin-top: -10px;
   height: 80px;
-  background-color: plum;
+  background-color: teal;
  
 }
 
