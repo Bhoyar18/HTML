@@ -18,8 +18,9 @@ body {
 }
 .logo{
   margin-top: 19px;
-  margin-left: 40px;
+  margin-left: 90px;
 }
+
 .logo img{
   height: 60px;
   width: 60px;
@@ -32,11 +33,11 @@ body {
   /* Changed to fixed for better scrolling behavior */
   /* background-color: lightslategray; */
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   list-style: none;
   margin-top: -10px;
   height: 80px;
-  background-color: teal;
+  background-color: grey;
  
 }
 
